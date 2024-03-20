@@ -118,33 +118,31 @@ const SkillImage = styled.img`
   height: 24px;
 `
 
-
 const Skills = () => {
   return (
     <Container id="skills">
       <Wrapper>
         <Title>Skills</Title>
-        <Desc>Here are some of my skills on which I have been working on for the past 2 years.
-        </Desc>
+        <Desc>Here are some of the skills I've acquired and mastered over time.</Desc>
         <SkillsContainer>
-          {skills.map((skill) => (
-            <Skill>
+          {skills.map((skill, index) => ( 
+            <Skill key={index}> {/* Add key prop here */}
               <SkillTitle>{skill.title}</SkillTitle>
               <SkillList>
-                {skill.skills.map((item) => (
-                  <SkillItem>
-                    <SkillImage src={item.image}/>
+                {skill.skills.map((item, itemIndex) => ( 
+                  <SkillItem key={itemIndex}>
+                    <SkillImage src={item.image} />
                     {item.name}
                   </SkillItem>
                 ))}
               </SkillList>
             </Skill>
           ))}
-
         </SkillsContainer>
       </Wrapper>
     </Container>
-  )
-}
+  );
+};
+
 
 export default Skills

@@ -1,4 +1,4 @@
-import edgeforce_icon from "../images/icon.png";
+
 export const Bio = {
   name: "Mohammed Abdul Samad",
   roles: [
