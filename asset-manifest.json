@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/samad-mohammed.github.io/portfolio/static/css/main.bf538fe7.css",
-    "main.js": "/samad-mohammed.github.io/portfolio/static/js/main.262668e3.js",
-    "static/media/profile-pic.png": "/samad-mohammed.github.io/portfolio/static/media/profile-pic.74bd5f31561b98579008.png",
-    "index.html": "/samad-mohammed.github.io/portfolio/index.html",
-    "main.bf538fe7.css.map": "/samad-mohammed.github.io/portfolio/static/css/main.bf538fe7.css.map",
-    "main.262668e3.js.map": "/samad-mohammed.github.io/portfolio/static/js/main.262668e3.js.map"
+    "main.css": "/Portfolio/static/css/main.bf538fe7.css",
+    "main.js": "/Portfolio/static/js/main.b3b05d59.js",
+    "static/media/profile-pic.png": "/Portfolio/static/media/profile-pic.74bd5f31561b98579008.png",
+    "index.html": "/Portfolio/index.html",
+    "main.bf538fe7.css.map": "/Portfolio/static/css/main.bf538fe7.css.map",
+    "main.b3b05d59.js.map": "/Portfolio/static/js/main.b3b05d59.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.262668e3.js"
+    "static/js/main.b3b05d59.js"
   ]
 }
