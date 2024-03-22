@@ -12,7 +12,7 @@ const Projects = ({openModal,setOpenModal}) => {
       <Wrapper>
         <Title>Projects</Title>
         <Desc>
-          I have worked on a wide range of projects. From web apps to android apps. Here are some of my projects.
+        Explore some of the impactful projects I've worked on, showcasing my skills and experience in software development and innovation.
         </Desc>
         <ToggleButtonGroup >
           {toggle === 'all' ?
@@ -27,10 +27,10 @@ const Projects = ({openModal,setOpenModal}) => {
             <ToggleButton value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToggleButton>
           }
           <Divider />
-          {toggle === 'android app' ?
-            <ToggleButton active value="android app" onClick={() => setToggle('android app')}>ANDROID APP'S</ToggleButton>
+          {toggle === 'software dev' ?
+            <ToggleButton active value="software dev" onClick={() => setToggle('software dev')}>SOFTWARE DEVELOPMENT</ToggleButton>
             :
-            <ToggleButton value="android app" onClick={() => setToggle('android app')}>ANDROID APP'S</ToggleButton>
+            <ToggleButton value="software dev" onClick={() => setToggle('software dev')}>SOFTWARE DEVELOPMENT</ToggleButton>
           }
           <Divider />
           {toggle === 'machine learning' ?

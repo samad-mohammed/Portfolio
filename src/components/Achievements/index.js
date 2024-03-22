@@ -7,8 +7,8 @@ import TimelineSeparator from '@mui/lab/TimelineSeparator';
 import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
-import ExperienceCard from '../Cards/ExperienceCard';
-import { experiences } from '../../data/constants';
+import AchievementCard from '../Cards/AchievementCard';
+import { achievements } from '../../data/constants';
 
 const Container = styled.div`
     display: flex;
@@ -76,22 +76,22 @@ const TimelineSection = styled.div`
 
 const index = () => {
     return (
-        <Container id="experience">
+        <Container id="achievements">
             <Wrapper>
-                <Title>Experience</Title>
+                <Title>Achievements and Extracurricular Activities</Title>
                 <Desc>
-                Explore my journey through various internship experiences where I've honed my skills and contributed to impactful projects.
+                Explore some of my notable achievements and recognitions throughout my journey.
                 </Desc>
                 <TimelineSection>
                     <Timeline>
-                        {experiences.map((experience,idx) => (
+                        {achievements.map((achievement,idx) => (
                             <TimelineItem key={idx}>
                                 <TimelineSeparator>
                                     <TimelineDot variant="outlined" color="secondary" />
-                                    {idx !== experiences.length - 1 && <TimelineConnector style={{ background: '#854CE6' }} />}
+                                    {idx !== achievements.length  && <TimelineConnector style={{ background: '#854CE6' }} />}
                                 </TimelineSeparator>
                                 <TimelineContent sx={{ py: '12px', px: 2 }}>
-                                    <ExperienceCard key={idx} experience={experience}/>
+                                    <AchievementCard key={idx} achievement={achievement}/>
                                 </TimelineContent>
                             </TimelineItem>
                         ))}

@@ -143,28 +143,28 @@ const Skill = styled.div`
 `
 
 
-const AchievementCard = ({ experience }) => {
+const AchievementCard = ({ achievement}) => {
     return (
       <Card>
         <Top>
-          <Image src={experience.img} />
+          <Image src={achievement.img} />
           <Body>
-            <Role>{experience.role}</Role>
-            <Company>{experience.company}</Company>
-            <Date>{experience.date}</Date>
+            <Role>{achievement.role}</Role>
+            <Company>{achievement.company}</Company>
+            <Date>{achievement.date}</Date>
           </Body>
         </Top>
         <Description>
-          {experience?.desc && (
-            <Span>{experience?.desc}</Span>
+          {achievement?.desc && (
+            <Span>{achievement?.desc}</Span>
           )}
-          {experience?.skills && (
+          {achievement?.skills && (
             <>
               <br />
               <Skills>
                 <b>Skills:</b>
                 <ItemWrapper>
-                  {experience?.skills?.map((skill, index) => (
+                  {achievement?.skills?.map((skill, index) => (
                     <Skill key={index}>• {skill}</Skill> 
                   ))}
                 </ItemWrapper>
@@ -172,9 +172,9 @@ const AchievementCard = ({ experience }) => {
             </>
           )}
         </Description>
-        {experience.doc && (
-          <a href={experience.doc} target="new">
-            <Document src={experience.doc} />
+        {achievement.doc && (
+          <a href={achievement.doc} target="new">
+            <Document src={achievement.doc} />
           </a>
         )}
       </Card>
