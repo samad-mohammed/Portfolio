@@ -132,7 +132,7 @@ export const skills = [
       {
         name: "AWS",
         image:
-          "https://cdn.iconscout.com/icon/free/png-512/free-amazon-aws-3521268-2944772.png?f=webp&w=256",
+          "https://static-00.iconduck.com/assets.00/general-awscloud-icon-512x512-tq2r4lgg.png",
       },
 
       {
