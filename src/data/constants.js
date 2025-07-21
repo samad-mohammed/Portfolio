@@ -1,6 +1,6 @@
 import { UAV1 } from "../images/UAV.png";
 export const Bio = {
-  name: "Mohammed Abdul Samad",
+  name: "Abdul Samad",
   roles: [
     "Full Stack Developer",
     "Software Developer",
@@ -25,7 +25,16 @@ export const skills = [
         image:
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
       },
-
+      {
+        name: "JavaScript",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+      },
+      {
+        name: "TypeScript",
+        image:
+          "https://images.icon-icons.com/2415/PNG/512/typescript_original_logo_icon_146317.png",
+      },
       {
         name: "HTML",
         image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
@@ -35,22 +44,13 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
       },
-      {
-        name: "JavaScript",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-      },
+
       {
         name: "Bootstrap",
         image:
           "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
       },
 
-      // {
-      //   name: "Flutter",
-      //   image:
-      //     "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
-      // },
     ],
   },
   {
@@ -79,7 +79,7 @@ export const skills = [
       {
         name: "Flask",
         image:
-          "https://p7.hiclipart.com/preview/508/316/14/flask-by-example-python-web-framework-bottle-bottle.jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz_T6tmjpQ-kU-nUB1KxkKpCM7vkNWUJwL1Q&s",
       },
       {
         name: "Firebase",
@@ -127,7 +127,7 @@ export const skills = [
       {
         name: "AWS",
         image:
-          "https://static-00.iconduck.com/assets.00/general-awscloud-icon-512x512-tq2r4lgg.png",
+          "https://www.pngmart.com/files/23/Aws-Logo-PNG-Image.png",
       },
 
       {

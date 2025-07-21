@@ -16,9 +16,9 @@ const Navbar = () => {
           <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20', cursor: 'pointer' }}>
           {/* <DiCssdeck size="3rem" /> */}
              <Span style={{color:'purple', fontSize:'32px'}}>{"<"}</Span>
-            <Span>Samad</Span>
+            <Span>Abdul</Span>
             <Span  style={{color:'purple', fontSize:''}}> / </Span>
-            <Span>Mohammed</Span>
+            <Span>Samad</Span>
             <Span  style={{color:'purple', fontSize:'2rem'}}>{">"}</Span>
           </a>
         </NavLogo>
